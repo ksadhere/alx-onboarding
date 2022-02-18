@@ -1,0 +1,17 @@
+This program reads in three numbers and writes them all in sorted order
+
+Function sorting_numbers (num1, num2, num3)
+	IF (num1 < num2 and num2 < num3)
+		Print num1, num2, num3
+	ELSE IF (num1 < num3 and num3 < num2)
+		Print num1, num3, num2
+	ELSE IF (num2 < num1 and num1 < num3)
+		Print num2, num1, num3
+	ELSE IF (num2 < num3 and num3 < num1)
+		Print num2, num3, num1
+	ELSE IF (num3 < num1 and num1 < num2)
+		Print num3, num1, num2
+	ELSE IF (num3 < num2 and num2 < num1)
+		Print num3, num2, num1
+	ELSE print "all numbers are equal"
+End Function

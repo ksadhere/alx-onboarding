@@ -1,0 +1,8 @@
+This program calculate the running sum
+
+Set sum to 0
+Input x
+while (x >= 0)
+	set sum to x + sum
+	Input new x
+Print sum

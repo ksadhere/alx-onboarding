@@ -1,0 +1,15 @@
+This program calculates the sum of squares of given input of numbers
+
+Function square (num)
+	Return num * num
+Endfunction
+
+Function sum_squares (num1, num2)
+	Return square(num1) + square(num2)
+Endfunction
+
+
+
+
+
+
